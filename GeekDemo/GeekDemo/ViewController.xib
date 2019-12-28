@@ -24,7 +24,7 @@
                         <constraint firstAttribute="height" constant="40" id="yvF-Kk-Zyh"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="judge">
+                    <state key="normal" title="jump">
                         <color key="titleColor" red="0.74901960779999999" green="0.20784313730000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </state>
                     <connections>

@@ -19,11 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"Judge" forState:UIControlStateNormal];
+    btn.backgroundColor = [UIColor greenColor];
+    btn.frame = CGRectMake(30, 100, 300, 44);
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(netAction) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (IBAction)testAction:(UIButton *)sender {
-    // 监听通知
+-(void)netAction {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
     //初始化监听控件
     self.reachability = [Reachability reachabilityForInternetConnection];
@@ -45,7 +49,6 @@
             break;
     }
 }
-
 
 /*
  * Called by Reachability whenever status changes.

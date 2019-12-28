@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "geekSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "The version number is set to 0.0.1. It is planned that the functions will be more perfect after three upgrades in the future"
 
   # This description is used to generate tags and improve search results.
