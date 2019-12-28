@@ -14,6 +14,8 @@
 		93440D3B23B72315003CF94D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 93440D3923B72315003CF94D /* Reachability.m */; };
 		93440D3F23B72343003CF94D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93440D3D23B72343003CF94D /* ViewController.m */; };
 		93440D4023B72343003CF94D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93440D3E23B72343003CF94D /* ViewController.xib */; };
+		93EFF43323B786BF00A4BC67 /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EFF43123B786BF00A4BC67 /* NetViewController.m */; };
+		93EFF43423B786BF00A4BC67 /* NetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EFF43223B786BF00A4BC67 /* NetViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		93440D3C23B72343003CF94D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		93440D3D23B72343003CF94D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93440D3E23B72343003CF94D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		93EFF43023B786BF00A4BC67 /* NetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetViewController.h; sourceTree = "<group>"; };
+		93EFF43123B786BF00A4BC67 /* NetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
+		93EFF43223B786BF00A4BC67 /* NetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				93440D3923B72315003CF94D /* Reachability.m */,
 				93440D3A23B72315003CF94D /* Reachability.h */,
+				93EFF43023B786BF00A4BC67 /* NetViewController.h */,
+				93EFF43123B786BF00A4BC67 /* NetViewController.m */,
+				93EFF43223B786BF00A4BC67 /* NetViewController.xib */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EFF43423B786BF00A4BC67 /* NetViewController.xib in Resources */,
 				93440D2F23B722A1003CF94D /* LaunchScreen.storyboard in Resources */,
 				93440D4023B72343003CF94D /* ViewController.xib in Resources */,
 				93440D2C23B722A1003CF94D /* Assets.xcassets in Resources */,
@@ -157,6 +166,7 @@
 				93440D2123B722A0003CF94D /* AppDelegate.m in Sources */,
 				93440D3B23B72315003CF94D /* Reachability.m in Sources */,
 				93440D3F23B72343003CF94D /* ViewController.m in Sources */,
+				93EFF43323B786BF00A4BC67 /* NetViewController.m in Sources */,
 				93440D3223B722A1003CF94D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
