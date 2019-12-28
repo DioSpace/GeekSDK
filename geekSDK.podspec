@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "geekSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "I hope this library can help more people. After a long time of use and improvement, the functions of this library are now complete. If there are any shortcomings, please correct me and I will make changesA short description of geekSDK."
+  spec.summary      = "If there are any shortcomings, please correct me and I will make changesA short description of geekSDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
