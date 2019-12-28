@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "If there are any shortcomings, please correct me and I will make changes"
+  spec.description  = "If there are any shortcomings, please point out me and I will make changes. Now, I only transfer a simple library, with limited functions, and the purpose is only to make a test"
 
   spec.homepage     = "https://github.com/DioSpace/GeekSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
